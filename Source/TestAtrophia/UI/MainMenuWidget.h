@@ -20,12 +20,6 @@ public:
 	void ToggleMenuBorderVisibility();
 
 protected:	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Widgets")
-	TSubclassOf<UCreatorsWidget> CreatorsWidgetClass;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Widgets")
-	TSubclassOf<USettingsWidget> SettingsWidgetClass;
-
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Level")
 	FName NewLevelName;
 
